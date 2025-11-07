@@ -30,7 +30,7 @@ const Admissions = () => {
   ];
 
   return (
-    <section id="admissions" className="py-20 bg-muted/30">
+    <section id="admissions" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -43,7 +43,7 @@ const Admissions = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {steps.map((step, index) => (
-            <Card key={index} className="border-none shadow-lg text-center">
+            <Card key={index} className="glass-card border-border shadow-xl text-center">
               <CardContent className="p-6">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
                   {step.icon}
@@ -57,7 +57,7 @@ const Admissions = () => {
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <Card className="border-none shadow-xl">
+          <Card className="glass-card border-border shadow-2xl">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-6">Apply Online</h3>
               <form className="space-y-6">
@@ -94,7 +94,7 @@ const Admissions = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <Card className="border-none shadow-lg inline-block">
+          <Card className="glass-card border-border shadow-xl inline-block">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold mb-2">Eligibility</h3>
               <p className="text-muted-foreground">

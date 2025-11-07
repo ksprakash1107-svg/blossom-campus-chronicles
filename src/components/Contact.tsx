@@ -30,7 +30,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-muted/30">
+    <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -44,7 +44,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div>
             <h3 className="text-2xl font-bold mb-6">Get In Touch</h3>
-            <Card className="border-none shadow-xl mb-8">
+            <Card className="glass-card border-border shadow-2xl mb-8">
               <CardContent className="p-8">
                 <form className="space-y-6">
                   <div>
@@ -75,7 +75,7 @@ const Contact = () => {
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
             <div className="space-y-4 mb-8">
               {contactInfo.map((info, index) => (
-                <Card key={index} className="border-none shadow-lg">
+                <Card key={index} className="glass-card border-border shadow-xl">
                   <CardContent className="p-6 flex gap-4">
                     <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center">
                       {info.icon}
@@ -89,7 +89,7 @@ const Contact = () => {
               ))}
             </div>
 
-            <Card className="border-none shadow-xl overflow-hidden">
+            <Card className="glass-card border-border shadow-2xl overflow-hidden">
               <CardContent className="p-0">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2845267890595!2d80.12374931482183!3d12.95901999087468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f3c7f2a7e97%3A0x3d9a6f3c4b7e3c7d!2sTambaram%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"

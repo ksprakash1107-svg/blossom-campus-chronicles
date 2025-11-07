@@ -43,7 +43,7 @@ const Faculty = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {facultyMembers.map((faculty, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 duration-300">
+            <Card key={index} className="glass-card border-border shadow-xl hover:shadow-2xl glass-hover transition-all hover:-translate-y-1 duration-300">
               <CardContent className="p-6">
                 <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent mx-auto mb-4 flex items-center justify-center text-white text-3xl font-bold">
                   {faculty.name.split(' ').map(n => n[0]).join('')}

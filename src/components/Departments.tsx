@@ -56,7 +56,7 @@ const Departments = () => {
           {departments.map((dept, index) => (
             <Card 
               key={index} 
-              className="border-none shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 duration-300 group overflow-hidden"
+              className="glass-card border-border shadow-xl hover:shadow-2xl glass-hover transition-all hover:-translate-y-2 duration-300 group overflow-hidden"
             >
               <CardContent className="p-8">
                 <div className={`inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br ${dept.gradient} text-white mb-6 group-hover:scale-110 transition-transform duration-300`}>

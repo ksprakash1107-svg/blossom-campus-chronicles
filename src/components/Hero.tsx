@@ -8,7 +8,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-purple-900/40 to-black/80" />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
@@ -26,7 +26,7 @@ const Hero = () => {
           <Button size="lg" className="text-lg" asChild>
             <a href="#admissions">Apply Now</a>
           </Button>
-          <Button size="lg" variant="outline" className="text-lg bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white/20" asChild>
+          <Button size="lg" variant="outline" className="text-lg glass backdrop-blur-md" asChild>
             <a href="#about">Learn More</a>
           </Button>
         </div>

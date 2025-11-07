@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -39,7 +39,7 @@ const About = () => {
         </div>
 
         <div className="mb-16 max-w-4xl mx-auto">
-          <Card className="border-none shadow-lg">
+          <Card className="glass-card border-border shadow-2xl">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
@@ -58,7 +58,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 duration-300">
+            <Card key={index} className="glass-card border-border shadow-xl hover:shadow-2xl glass-hover transition-all hover:-translate-y-1 duration-300">
               <CardContent className="p-6 text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 text-primary mb-4">
                   {feature.icon}

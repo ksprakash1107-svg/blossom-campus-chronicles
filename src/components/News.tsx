@@ -40,7 +40,7 @@ const News = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {newsItems.map((item, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 duration-300 group">
+            <Card key={index} className="glass-card border-border shadow-xl hover:shadow-2xl glass-hover transition-all hover:-translate-y-2 duration-300 group">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300">
