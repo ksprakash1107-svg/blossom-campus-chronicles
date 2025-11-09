@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
+  import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
+              <li><a href="#about" className="hover:text-primary transition-colors">About</a></li>
               <li><a href="#departments" className="hover:text-primary transition-colors">Departments</a></li>
               <li><a href="#admissions" className="hover:text-primary transition-colors">Admissions</a></li>
               <li><a href="#faculty" className="hover:text-primary transition-colors">Faculty</a></li>
